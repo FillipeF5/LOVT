@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    width: 1200px;
+    width: 1080px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -33,11 +33,96 @@ header .logo h2{
     color: rgb(43, 43, 43);
 }
 
-section.banner .slide img {
-    width: 100%;
+section.banner .slide img { width: 100%; }
+
+section.projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    max-width: 100% ;
+    margin: 0 auto;
+}
+
+section.projects .right {
+    background-color: rgba(128, 128, 128, 0.193);
+    justify-content: center;
+    width: 258px;
+}
+section.projects .left {
+    background-color: rgba(128, 128, 128, 0.193);
+    justify-content: center;
+    width: 258px;
+}
+
+section.projects .line-left {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+section.projects .line-right {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+section.projects .line-left .btn-new {
+    background-color:rgb(88, 209, 88);
+    border-radius: 25px;
+    color:rgba(255, 255, 255, 0.782);
+    height: 21px; width: 60px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+section.projects .line-right .btn-sale {
+    background-color:rgb(218, 188, 18);
+    border-radius: 25px;
+    color:rgba(255, 255, 255, 0.782);
+    height: 21px; width: 60px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+section.projects .line-left span{
+    color: grey;
+    height: 40px;
+    font-size: 30px;
+}
+section.projects .line-right span{
+    color: grey;
+    height: 40px;
+    font-size: 30px;
+}
+section.projects h5{
+    text-align: justify;
+    padding: 0; margin: 5px;
+    color:rgb(97, 95, 95);
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+
+
+section.styles .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1080px;
+    max-width: 100% ;
+    margin: 0 auto;
 }
 
 footer{
     background-color: rgb(58, 58, 58);
-    
+    padding: 30px;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    max-width: 100% ;
+    margin: 0 auto;
 }
