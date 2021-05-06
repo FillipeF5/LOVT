@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOVT | You Love, your Loft &#9825; </title>
     <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -15,7 +16,11 @@
                 <h2>You Love, <br>
                     your Loft!</h2>
             </div>
-            <button class="menu-toggle">☰</button>
+        
+                <a href="#">
+                    &#9776;
+                </a>
+            
         </div>
     </header>
     
@@ -27,8 +32,8 @@
     
                 </div>
                 <div class="seta">
-                    <a href="#" class="left" title="anterior"></a>
-                    <a href="#" class="right" title="proximo"></a>
+                    <a href="#" class="left"title="anterior"><img src="_img/seta esq.svg"></a>
+                    <a href="#" class="right" title="proximo"><img src="_img/seta dir.svg"></a>
                 </div>
             </div>
         </section>
@@ -36,10 +41,10 @@
         <section class="projects">
             
             <article class="left">
-                <img class="img-left" src="_img/Rectangle 6.png" alt="Product project 1">
+                <div class="img-left" style="background-image: url('_img/Rectangle\ 6.png');"></div>
                 
                 <div class="line-left">
-                    <span>$ 1,200</span> 
+                    <span>$ 140,800</span> 
                     <h3 class="btn-new">New</h3>
                 </div>
                 
@@ -47,10 +52,10 @@
             </article>
             
             <article class="right">
-                <img src="_img/Rectangle 7.png" alt="Product project 2">
+                <div class="img-right" style="background-image: url('_img/Rectangle\ 7.png');"></div>
                     
                 <div class="line-right">
-                    <span>$ 2,000</span>
+                    <span>$ 200,000</span>
                     <h3 class="btn-sale">Sale</h3>
                 </div>   
 
@@ -62,12 +67,20 @@
         <section class="styles">
             
             <div class="container">
-                <ul class="estilos">
-                    <h3>Your Style</h3> 
-                    <li><a href=""><img class="industrial" src="_img/Rectangle 14.png"></a></li>
-                    <li><a href=""><img class="modern" src="_img/Rectangle 15.png"></a></li>
-                    <li><a href=""><img class="classic" src="_img/Rectangle 16.png"></a></li>
-                </ul>
+                <h2>Your Style</h2> 
+                        
+                    <article class="industrial" style="background-image: url('_img/industrial-img.jpg');">
+                        <h3>Industrial</h3>
+                    </article>
+                    
+                    <article class="modern" style="background-image: url('_img/modern-img.jpg');">
+                        <h3>Modern</h3>
+                    </article>
+                    
+                    <article class="classic" style="background-image: url('_img/classic-img.jpg');">
+                        <h3>Classic</h3>
+                    </article>
+                
             </div>
 
         </section>
@@ -76,15 +89,20 @@
     <footer>
         <div class="container">
             
-            <article class="esq">
-                <img src="_img/image 1.png">
+            <article class="esq" style="background-image: url('_img/image\ 1.png');">
+                <a href="#">Map</a>
             </article>
             
             <article class="dir">
                 <p>LOVT - You love, your loft! Broad St, Newark, NJ 07102 - USA +1 (973) 854-555-548 contact@lovtrealstate.com
                 </p>
                 <p>Our Social Medias</p>
-                
+                <div class="social">
+                    <li><a href="#"><i class="fa fa-instagram"> </i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook"> </i></a></li>
+                    <li><a href="#"><i class="fa fa-whatsapp"> </i></a></li>
+                </div>
+
             </article>
         
         </div>
