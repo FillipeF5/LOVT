@@ -30,18 +30,18 @@ header .container{
 header .logo h1{
     display: inline-block;
     font-size: 50px;
-    color: rgb(116, 98, 1);
+    color: rgba(157, 136, 22, 0.631);
 }
 header .logo h2{
     display: inline-block;
     font-size: 16px;
-    color: rgb(130, 37, 37);
+    color: rgb(202, 98, 126);
 }
 header .container a {
     cursor: pointer;
     font-size: 38px;
     text-decoration: none;
-    color: black;
+    color: rgb(46, 24, 0);
     padding: 10px;
 }
 main section.banner {padding: 30px 0;}
@@ -230,21 +230,28 @@ footer .container article.esq a{
     color: rgba(255, 255, 255, 0);
 }
 footer .container article.dir {
-    width: 400px;
+    width: 380px;
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
     flex-direction: column;
     font-family: 'Ropa Sans', sans-serif;
     color:rgb(0, 0, 0);
     font-size: 22px;
     font-style: italic;
+    margin: 0 auto;
+    padding:0;
 }
 
+footer .container article.dir h6{
+    font-size: 20px;
+    display: flex;
+    margin-bottom: -20px;
+}
 footer .container article.dir .social{
     display: flex; 
     list-style: none; 
-    align-items: center; 
-    justify-content: left; 
+    align-items: left; 
+    margin-left: -2px;
 }
 footer .container article.dir .social li a{
     text-decoration: none;
@@ -252,4 +259,4 @@ footer .container article.dir .social li a{
     padding: 20px;
     font-size: 30px;
 }
-.social a:hover i {color: rgba(213, 226, 213, 0.419)}
+.social a:hover i {color: rgba(159, 202, 4, 0.685)}
